@@ -1,4 +1,4 @@
-// src/pages/Cakes.js
+
 import React from 'react';
 import CakeCard from '../components/CakeCard';
 
