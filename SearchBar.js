@@ -1,4 +1,4 @@
-// src/components/SearchBar.js
+
 
 import React, { useState } from 'react';
 
@@ -7,12 +7,12 @@ const SearchBar = ({ onSearch }) => {
 
     const handleInputChange = (e) => {
         setQuery(e.target.value);
-        onSearch(e.target.value); // Call the onSearch function passed as a prop
+        onSearch(e.target.value); 
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault(); // Prevent form submission
-        onSearch(query); // Call the onSearch function with the current query
+        e.preventDefault(); 
+        onSearch(query); 
     };
 
     return (
